@@ -1,0 +1,86 @@
+.coach {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.seat-input {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.user-input{
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.reset-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #ce8e3a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.link-button{
+  margin-top: 30px;
+  padding: 8px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #1a5fc6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.available {
+  background-color: #c8e6c9;
+}
+
+.reserved {
+  background-color: #ffcdd2;
+}
+
+.booked{
+  background-color: #139edf;
+}
